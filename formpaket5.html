@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Paket 50Mbps</title>
+</head>
+
+<style>
+  body{
+    font-size: 20px;
+    font-family: Poppins, Sans-Serif;
+    background-color: #094067;
+    color: white;
+  }
+  
+  h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+  
+  .h2p{
+    text-align: center;
+  }
+  
+  .kumpulanform{
+    backdrop-filter: blur (12px);
+    -webkit-backdrop-filter: blur (12px;)
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    color: white;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  .form{
+    display: block;
+    box-sizing: border-block;
+  }
+  
+  .formpaket{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+  margin-top: 5px;
+  }
+  
+  #btn{
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  #btn:hover{
+    transition: 0.2 ease;
+    transform: scale(1.05);
+    background-color: #3da9fc;
+  }
+  
+  #kota{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+  margin-top: 5px;
+  }
+</style>
+
+<body>
+  <h1>PAKET LGKRSC 50Mbps</h1>
+  
+  <div class="h2p">
+  <h2>Isi Formulir</h2>
+  <p>Masukkan data anda dengan benar!</p>
+  </div>
+  
+  <form class="kumpulanform">
+    <p class="form">
+      <label for="idgame">Nama</label><br>
+      <input type="text" class="formpaket" name="idgame" placeholder="Masukan Nama Lengkap">
+    </p>
+    
+    <p class="form">
+      <label for="lokasi">Kota</label><br>
+      <select name="" id="kota">
+        <option value="">Mojokerto</option>
+        <option value="">Surabaya</option>
+        <option value="">Malang</option>
+        <option value="">Lamongan</option>
+        <option value="">Gresik</option>
+        <option value="">Jombang</option>
+      </select>
+    </p>
+    
+    <p class="form">
+      <label for="idgame">Alamat</label><br>
+      <input type="text" class="formpaket" name="idgame" placeholder="Masukan Alamat Lengkap">
+    </p>
+    
+    <p class="form">
+      <label for="idgame">Nomor Telepon</label><br>
+      <input type="number" class="formpaket" name="idgame" placeholder="Masukan Nomor Telepon">
+    </p>
+    
+    <p>
+      <button id="btn">Submit</button>
+    </p>
+  </form>
+  
+  
+</body>
+</html>
